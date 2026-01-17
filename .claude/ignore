@@ -1,0 +1,26 @@
+# .claude/ignore - Context Protection Layer
+# Purpose: Prevent "Context Poisoning" by excluding massive or irrelevant files.
+
+# Dependencies
+node_modules/
+dist/
+build/
+coverage/
+
+# System
+.git/
+.DS_Store
+.env
+.env.local
+
+# Large Assets
+*.mp4
+*.mov
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

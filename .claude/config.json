@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-config",
+  "comment": "Agentic Dojo Configuration - Calibrated 2026-01-17",
+  "protection_rules": {
+    "require_confirmation": ["rm", "git push", "npm publish"],
+    "max_context_tokens": 200000
+  },
+  "agent_defaults": {
+    "model": "claude-3-opus-20240229",
+    "temperature": 0.0
+  },
+  "sub_agents_path": ".claude/agents/"
+}
