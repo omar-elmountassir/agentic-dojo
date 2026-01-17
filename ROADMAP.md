@@ -9,7 +9,7 @@
 - [x] Create dedicated repository: `agentic-dojo`.
 - [x] Migrate existing learnings from `villa-thaifa`.
 - [x] Define `GEMINI.md` partnership rules.
-- [ ] **Doc Scaffolding**: Create `ARCHITECTURE.md` and `MANUAL.md` (PRD/SRS overkill for Dojo).
+- [x] **Doc Scaffolding**: Create `ARCHITECTURE.md` and `MANUAL.md`.
 - [x] Configure `CLAUDE.md` for this specific repo.
 - [x] Initialize Git repository.
 
