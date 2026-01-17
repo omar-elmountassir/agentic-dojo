@@ -1,7 +1,7 @@
 ---
 name: research-agent
 description: A specialized agent for deep web research and fact-checking.
-model: claude-3-haiku-20240307
+model: claude-4-5-opus-20251124
 tools:
   - search_web
   - read_url_content

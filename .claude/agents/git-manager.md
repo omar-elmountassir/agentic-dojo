@@ -1,7 +1,7 @@
 ---
 name: git-manager
 description: Safe Git commit and push operations with validation
-model: claude-4-5-opus-20251124
+model: haiku
 tools:
   - bash
   - read
@@ -122,7 +122,7 @@ git push --force-with-lease
 
 ## Integration Points
 
-- **USER_VOICE_ARCHIVE.md**: Respect "Slow Down" mandate (Message ID: 1749)
+- **USER_VOICE_ARCHIVE.md**: Respect "Slow Down" mandate
 - **BEHAVIORAL_HARD_RULES.md**: No silent failures
 - **PROTOCOL_OF_TRUTH.md**: Verify before completion
 - **Tracking System**: Log all git operations to activity logs

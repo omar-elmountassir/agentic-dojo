@@ -1,0 +1,45 @@
+{
+  "name": "agentic-dojo",
+  "version": "0.0.1-alpha.0",
+  "description": "Agentic Engineering Research & Training Environment",
+  "scripts": {
+    "lint": "npm run lint:markdown && npm run lint:agents && npm run lint:links",
+    "lint:markdown": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**/*.md\" \"!content/library/**/*.md\" \"!user/data/**/*.md\"",
+    "lint:agents": "node scripts/validators/validate-agents.js",
+    "lint:skills": "node scripts/validators/validate-skills.js",
+    "lint:config": "node scripts/validators/validate-config.js",
+    "lint:links": "markdown-link-check --config .markdown-link-check.json \"**/*.md\" \"!node_modules/**/*.md\" \"!content/library/**/*.md\" \"!user/data/**/*.md\"",
+    "format": "npm run format:markdown",
+    "format:markdown": "prettier --write \"**/*.md\"",
+    "format:check": "prettier --check \"**/*.md\"",
+    "truth:check": "npm run truth:grounding && npm run truth:resilience",
+    "truth:grounding": "node scripts/checkers/check-grounding.js",
+    "truth:resilience": "node scripts/checkers/check-resilience.js",
+    "test": "npm run lint:agents && npm run lint:skills && npm run lint:config",
+    "test:all": "npm run lint && npm run truth:check",
+    "ci": "npm run test:all",
+    "precommit": "npm run format:check && npm run test"
+  },
+  "keywords": [
+    "agentic",
+    "ai",
+    "engineering",
+    "dojo",
+    "digital-twin",
+    "cyber-bdf",
+    "system",
+    "governance",
+    "protocols"
+  ],
+  "author": "Omar El Mountassir",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.4.0",
+    "markdownlint-cli2": "^0.14.0",
+    "markdown-link-check": "^3.12.0",
+    "gray-matter": "^4.0.3",
+    "ajv": "^6.12.6",
+    "chalk": "^4.1.2",
+    "glob": "^10.3.0"
+  }
+}

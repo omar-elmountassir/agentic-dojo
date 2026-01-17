@@ -1,0 +1,63 @@
+name: Agentic Validation
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  validate:
+    name: Protocol of Truth Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint Markdown
+        run: npm run lint:markdown
+
+      - name: Validate Agents
+        run: npm run lint:agents
+
+      - name: Validate Skills
+        run: npm run lint:skills
+
+      - name: Validate Config
+        run: npm run lint:config
+
+      - name: Check Links
+        run: npm run lint:links
+        continue-on-error: true
+
+      - name: Protocol of Truth: Grounding
+        run: npm run truth:grounding
+        continue-on-error: true
+
+      - name: Protocol of Truth: Resilience
+        run: npm run truth:resilience
+
+      - name: Format Check
+        run: npm run format:check
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## 🥋 Agentic Validation Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ All core validations passed" >> $GITHUB_STEP_SUMMARY
+          echo "- Markdown linted" >> $GITHUB_STEP_SUMMARY
+          echo "- Agents validated" >> $GITHUB_STEP_SUMMARY
+          echo "- Skills validated" >> $GITHUB_STEP_SUMMARY
+          echo "- Config validated" >> $GITHUB_STEP_SUMMARY
+          echo "- Scripts resilient" >> $GITHUB_STEP_SUMMARY

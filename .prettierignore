@@ -1,0 +1,11 @@
+node_modules/
+.git/
+content/library/
+.state/
+logs/
+user/data/
+*.min.js
+package-lock.json
+CHANGELOG.md
+CITATION.cff
+LICENSE

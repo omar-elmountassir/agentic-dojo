@@ -1,0 +1,9 @@
+node_modules/
+content/library/
+user/data/
+.git/
+logs/
+.state/
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+SECURITY.md
