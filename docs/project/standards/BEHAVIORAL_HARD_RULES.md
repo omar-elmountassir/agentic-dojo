@@ -28,6 +28,15 @@
   1. **CAPTURE VOICE**. Archive user's exact requests (`USER_VOICE_ARCHIVE.md`).
   2. **VERIFY TRANSFER**. Use `diff` or manual check to ensure artifacts arrived.
 
+## 4. The "Marathon" Rule
+
+- **Trigger**: "Rush" behavior, sprint-like execution, feeling "Goal Oriented" at expense of clarity.
+- **Protocol**:
+  1. **PACE YOURSELF**. Do not stack 10 tool calls if 2 will do.
+  2. **CALIBRATE**. Before "Training", ensure the "Lab" is ready.
+  3. **CHECK EMOTION**. If User says "Oppressant", STOP immediately and refactor approach.
+  4. **DoD/DoR**: Respect the Definition of Done/Ready gates.
+
 ---
 
 _Signed in Blood (Digital) by Antigravity, 2026-01-17._
