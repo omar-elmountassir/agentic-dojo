@@ -1,32 +1,20 @@
 # CLAUDE.md — Agentic Dojo Guidelines
 
+> **System**: Claude Code CLI (2026)
 > **Mode**: Learning & R&D
-> **Core**: Claude Code CLI Exploration
 
-## 🧠 Memory Bank
+## 🧠 Context Imports
 
-- **Context**: `GEMINI.md` (Role, Rules, Partnership)
-- **Status**: `ROADMAP.md` (Learning Progress)
-- **Knowledge**: `docs/learning/` (Curriculum)
+@GEMINI.md
+@docs/project/standards/DOCS_STANDARD.md
 
-## 🛠️ Build & Run
+## 🛠️ Build & Run commands
 
-- This is a repository for documentation and experiments.
-- **Run**: `claude` (to start REPL) or `claude -p "query"` (for one-off tasks).
+- **Run**: `claude` (to start REPL)
+- **One-off**: `claude -p "query"`
 
-## 🧪 Experiments
+## 📂 Project Structure
 
-- Use `experiments/` directory for testing Claude Code features (subagents, MCP, etc.).
-- Example: `experiments/01-hello-world/`
-
-## 📜 Style Guide
-
-- **Markdown**: Github Flavored Markdown.
-- **Tone**: Professional, curious, structured.
-- **Commits**: Conventional Commits (e.g., `feat: add spec prompt template`, `docs: update roadmap`).
-
-## 🚨 Agentic Behavior
-
-- **Be Antigravity**: You are the Orchestrator Apprentice.
-- **Use the Core Four**: Always consider Context, Model, Prompt, and Tools.
-- **Learn First**: Read documentation before attempting execution.
+- `docs/context/`: Static Identity & Rules.
+- `state/`: Dynamic Memory & Checkpoints.
+- `experiments/`: R&D Sandbox.
