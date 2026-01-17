@@ -28,3 +28,11 @@ _"Je sais que vous les IA, privilegiez : json.. Moi je préfère avoir une plate
 _"tu me sorts des modèles de 2025 ... Alors uq'on est en 2026 !! ... et t'a en plus, RATER L'UPDATE DE TECH STACK .. ET T'aS FAIT COMME SI DE RIEN N'EN ETE !!!"_
 
 - **Failure Analysis**: Hallucination + Silent Failure. Corrected by `BEHAVIORAL_HARD_RULES.md`.
+
+## Message ID: 1956 (The Context Anti-Pattern)
+
+> "Proceed with solving the "Memory Problem".. BUt having a CONTEXT.md to put everything in would be a very bad practice.. Which is also something you previously did.. We must also take care of that recurring problem because that an anti-pattern / toxic pattern I often see in you AI Agents !"
+
+- **Anti-Pattern**: Monolithic `CONTEXT.md` = TOXIC.
+- **Rule**: Modular Context Only. Index Files > Concatenation.
+- **Action**: Update `CONTEXT_STRATEGY.md`.
