@@ -21,7 +21,7 @@
 - [x] **Config Audit**: Verify `.claude/config.json` and `settings.json` (Security/Permissions).
 - [x] **Tool Check**: Verify `claude -p` response times and error handling.
 - [x] **Sub-Agent #0**: Define and create `research-agent` (The first employee).
-- [ ] **MCP Hello World**: Connect ONE simple tool to verify MCP protocol.
+- [x] **MCP Hello World**: Connect ONE simple tool to verify MCP protocol.
 
 ## 🟠 Phase 2: Tactical Skills (PAC + Core Four)
 

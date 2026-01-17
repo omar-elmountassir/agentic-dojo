@@ -6,7 +6,7 @@
     "max_context_tokens": 200000
   },
   "agent_defaults": {
-    "model": "claude-3-opus-20240229",
+    "model": "claude-4-5-opus-20251124",
     "temperature": 0.0
   },
   "sub_agents_path": ".claude/agents/"
