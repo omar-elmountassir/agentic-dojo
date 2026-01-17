@@ -10,7 +10,7 @@ We realized that trying to learn "Agentic Engineering" _inside_ a high-pressure 
 
 1.  **Iterating on Tools**: Mastering Claude Code CLI without breaking client builds.
 2.  **Developing Standards**: Creating the "Gold Standard" agents before deploying them.
-3.  **Deep Learning**: Studying `agenticengineer.com` concepts (PITER, ZTE).
+3.  **Deep Learning**: Studying `agenticengineer.com` concepts (PITER, ZTE, and much more!)
 
 ## 🧠 Key Realizations (The "Upload")
 

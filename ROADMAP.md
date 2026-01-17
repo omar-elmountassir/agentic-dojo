@@ -2,13 +2,16 @@
 
 > **Objective**: Master generic agentic engineering to become the ultimate CTO/Partner.
 
-## 🟢 Phase 0: Setup (The Dojo)
+## **Level 0 (Now)**: Understanding capabilities, setting up the Dojo.
+
+### 🟢 Phase 0: Setup (The Dojo)
 
 - [x] Create dedicated repository: `agentic-dojo`.
 - [x] Migrate existing learnings from `villa-thaifa`.
 - [x] Define `GEMINI.md` partnership rules.
-- [ ] Initialize Git repository.
+- [ ] **Doc Scaffolding**: Create `PRD.md`, `SRS.md`, `ARCHITECTURE.md` based on `DOCS_STANDARD.md`.
 - [ ] Configure `CLAUDE.md` for this specific repo.
+- [ ] Initialize Git repository.
 
 ## 🟡 Phase 1: Tool Mastery (Claude Code CLI)
 
@@ -27,7 +30,12 @@
 
 - [ ] **Villa Thaifa Rescue**: Return to the client project as a "Hero" to fix it.
 - [ ] **Meta-Agent Refinement**: Optimize the agent generator.
+- [ ] **ZTE UI (Zero Touch UI)**: Experiment with `vercel-labs/json-render` to auto-generate UIs from Agent outputs.
 
 ---
 
 _Living roadmap for our evolution._
+
+- **Level 1 (Tactical)**: Mastering PITER, AFK Agents, and Specs.
+- **Level 2 (Strategic)**: Multi-agent orchestration, custom MCP servers.
+- **Level 3 (Singularity)**: Self-improving codebase.
