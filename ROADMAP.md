@@ -13,12 +13,15 @@
 - [x] Configure `CLAUDE.md` for this specific repo.
 - [x] Initialize Git repository.
 
-## 🟡 Phase 1: Tool Mastery (Claude Code CLI)
+## 🟡 Phase 1: Lab Calibration (Tools & Permissions)
 
-- [ ] **CLI Basics**: Master `claude`, `claude -p`, `claude -c`.
-- [ ] **Config Deep Dive**: Explore `.claude/config.json` and permissions.
-- [ ] **Subagents**: Create a `research-agent` subagent.
-- [ ] **MCP Integration**: Connect a simple MCP server (e.g., FileSystem or Git).
+> **Status**: Ready for Calibration.
+> **Pace**: Slow, Deliberate.
+
+- [ ] **Config Audit**: Verify `.claude/config.json` and `settings.json` (Security/Permissions).
+- [ ] **Tool Check**: Verify `claude -p` response times and error handling.
+- [ ] **Sub-Agent #0**: Define and create `research-agent` (The first employee).
+- [ ] **MCP Hello World**: Connect ONE simple tool to verify MCP protocol.
 
 ## 🟠 Phase 2: Tactical Skills (PAC + Core Four)
 

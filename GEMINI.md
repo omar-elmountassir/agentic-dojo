@@ -10,6 +10,8 @@
 ## 2. Behavioral Standards (Critically Important)
 
 @docs/project/standards/BEHAVIORAL_HARD_RULES.md
+@docs/project/standards/PROTOCOL_OF_TRUTH.md
+@docs/project/standards/DOD_DOR.md
 
 ## 3. Technology Stack (2026)
 
