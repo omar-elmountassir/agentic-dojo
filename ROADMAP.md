@@ -9,9 +9,9 @@
 - [x] Create dedicated repository: `agentic-dojo`.
 - [x] Migrate existing learnings from `villa-thaifa`.
 - [x] Define `GEMINI.md` partnership rules.
-- [ ] **Doc Scaffolding**: Create `PRD.md`, `SRS.md`, `ARCHITECTURE.md` based on `DOCS_STANDARD.md`.
-- [ ] Configure `CLAUDE.md` for this specific repo.
-- [ ] Initialize Git repository.
+- [ ] **Doc Scaffolding**: Create `ARCHITECTURE.md` and `MANUAL.md` (PRD/SRS overkill for Dojo).
+- [x] Configure `CLAUDE.md` for this specific repo.
+- [x] Initialize Git repository.
 
 ## 🟡 Phase 1: Tool Mastery (Claude Code CLI)
 
